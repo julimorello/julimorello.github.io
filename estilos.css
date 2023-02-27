@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  background-color: white;
+ display: grid;
+ min-height: 100vh;
+ grid-template-rows: auto 1fr auto;
+}
+
+h1 {
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-weight: Luz 300;
+  font-size: 55px;
+  color: #CE0DCE;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  margin-top: 1px;
+}
+
+h3 {
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  margin-left: 10px;
+  font-size: 25px;
+  color: black;
+  text-align: left;
+  
+}
+
+h4 {
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  margin-left: 15px;
+  font-size: 22px;
+  color: black;
+  text-align: left;
+}
+
+h5 {
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-size: 27px;
+  color: #79154c;
+  text-align: left;
+  margin-left: 100px;
+}
+
+h6 {
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-size: 45px;
+  color: #79154c;
+}
+
+h7 {
+font-family: 'Architects Daughter', cursiva;
+font-size: 58px;
+color: fuchsia;
+text-shadow: 0.1em 0.1em 0.1em #79154c;
+
+}
+p {
+  margin-left: 18px;
+  font-family: 'Sofia Sans Extra Condensed normal 200', sans-serif;
+  font-size: 14px;
+  color: black;
+  text-align: left;
+  line-height: 25px;
+}
+
+a {
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-size: 25px;
+  color: #79154c;
+}
+.certificaciones-flex {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#grilla {
+  display: grid;
+  grid-template-areas: nav redes redes;
+  grid-template-rows: 200px;
+  grid-template-columns: auto;
+}
+
+.redes {
+  justify-items: center;
+  align-items: center;
+}
+
+/**.redes-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+}*/
+
+.boton-linkedin {
+  background-color: blue;
+  color: white;
+  padding: 3px;
+  margin: 3px;
+  margin-bottom: 2px;
+}
+.boton-instagram {
+  background-color: palevioletred;
+  color: white;
+  padding: 3px;
+  margin: 3px;
+}
+.boton-mail {
+  background-color: white;
+  color: red;
+  padding: 3px;
+  margin: 3px;
+}
+.boton-facebook {
+  background-color: blue;
+  color: white;
+  padding: 3px;
+  margin: 3px;
+}
+.boton-whatsapp {
+  background-color: green;
+  color: white;
+  padding: 4px;
+  margin: 3px;
+}
+
+/*listas*/
+
+table {
+  table-layout: auto;
+  width: 400px;
+  margin-bottom: 50px;
+  background-color: #E718E7;
+  margin-block: 50px;
+}
+tr {
+  font-family:roboto, sans-serif;
+  font-size: 16px;
+  color: yellow;
+}
+
+/*botón descarga CV*/
+
+.button {
+  background-color: whitesmoke;
+  color: black;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 3px solid gray;
+  border-radius: 7px;
+  border-style: groove;
+  font-family:sofia sans condensed;
+  font: 1em sans-serif;
+  
+  text-align: center;
+}
+
+/*logos*/
+
+img {
+  margin: 50px;
+}
+
+/*pie*/
+
+.footer {
+  background-color: transparent;
+  padding: 1em 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
